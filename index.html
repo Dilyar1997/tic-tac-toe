@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <div class="container">
+            <div>
+                <h4>Choose your symbol</h4>
+                <button id="choose-x">X</button>
+                <button id="choose-o">O</button>    
+            </div>
+            <h4 id="chosen-symbol"></h4>
+            <div id="game">
+                <tr>
+                    <table class="board-one">
+                    <td>
+                        <button id="0" class="cell" onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="1" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="2" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                </tr> <br>
+                <tr>
+                    <td>
+                        <button id="3" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="4" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="5" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                </tr><br>
+                <tr>
+                    <td>
+                        <button id="6" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="7" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                    <td>
+                        <button id="8" class="cell"  onClick="btn_clicked(this.id)" style="width:80px; height:80px"></button>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <h1 id="winnar"></h1>
+            <button id="restart"> RESTART</button>
+       </div>
+    <script src="script.js"></script>
+</body>
+</html>
